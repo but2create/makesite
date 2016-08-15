@@ -1,0 +1,16 @@
+@import '../vars/base';
+
+@import 'accessibility';
+@import 'elements';
+@import 'helper';
+@import 'typography';
+
+.container {
+  max-width: $containerWidth;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
